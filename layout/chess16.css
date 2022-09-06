@@ -258,3 +258,8 @@ p.error, div.error
 	textarea#feedback		{ margin: 0 .75em; max-width: 92%; }
 	.feedback input			{ max-width: 98%; }
 }
+
+/* zzform list display */
+#zzform ul.data li
+			{ max-width: 126px; height: 240px; }
+
