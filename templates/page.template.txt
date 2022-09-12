@@ -27,7 +27,7 @@
 %%% condition endif %%%
 %%% page head %%%
 </head>
-<body class="%%% page realm %%%"%%% page extra_body_attributes " %s" %%%>
+<body class="%%% setting realm %%%"%%% page extra_body_attributes " %s" %%%>
 <div id="full">
 <header><div id="head">
 %%% block logo %%%
