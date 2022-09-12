@@ -17,6 +17,7 @@
 <html lang="%%% page lang %%%">
 <head>
 	<title>%%% page pagetitle %%%</title>
+%%% page packagecss %%%
 %%% block css %%%
 	<link rel="icon" href="/favicon.ico" type="image/x-ico">
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" type="image/png">
