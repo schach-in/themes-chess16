@@ -93,14 +93,6 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 	h3			{ padding: 0 .68em; }
 	dt			{ padding-left: .75em; }
 	dd			{ padding: 0 0 0 2.25em; margin: 0; }
-	p, #text, dl, legend
-				{ padding: 0 .75em; }
-	td p		{ padding: 0 0; }
-}
-@media screen and (max-width: 640px) {
-	h1			{ font-size: 130%; padding: 0 .58em; }
-	h2			{ font-size: 120%; padding: 0 .625em; }
-	h3			{ padding: 0 .68em; }
 	p, dl, legend
 				{ padding: 0 .75em; }
 	td p		{ padding: 0 0; }
