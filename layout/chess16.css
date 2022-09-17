@@ -183,6 +183,13 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 				{ display: none; }
 }
 
+.subnav			{ margin: .75em auto; padding: 0 .75em; max-width: 60em; }
+.subnav	ul		{ margin: 0; padding: 0; }
+@media screen and (max-width: 640px) {
+	.subnav			{ text-align: center; padding: 0 .25em; }
+}
+
+
 /* colour schemes */
 @media screen {
 	.error .banner	{ background-color: #C00;
