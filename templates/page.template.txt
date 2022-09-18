@@ -25,6 +25,7 @@
 %%% condition if page description %%%
 	<meta name="description" content="%%% page description %%%">
 %%% condition endif %%%
+%%% page magnificpopup head %%%
 %%% page head %%%
 </head>
 <body class="%%% setting realm %%%"%%% page extra_body_attributes " %s" %%%>
@@ -44,6 +45,7 @@
 </div>
 </div>
 %%% page turniermenue %%%
+%%% page eventmenu %%%
 </header>
 <div id="content">
 <div class="text%%% page extra_wide " wide"%%%" role="main">
@@ -67,5 +69,7 @@
 </div>
 </footer>
 </div>
+%%% page magnificpopup foot %%%
+%%% block scriptfoot %%%
 </body>
 </html>
