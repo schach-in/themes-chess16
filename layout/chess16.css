@@ -181,6 +181,16 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 	.subnav			{ text-align: center; padding: 0 .25em; }
 }
 
+/* foot of page */
+#foot nav ul
+			{ clear: left; margin: 0 auto 1em; padding: 0; list-style: none; }
+#foot nav li
+			{ margin: 0; padding: 0; display: inline-block; }
+#foot nav li:before
+			{ content: " \00a0·\00a0\00a0"; }
+#foot nav li:first-child:before
+			{ content: ""; }
+
 
 /* colour schemes */
 @media screen {
