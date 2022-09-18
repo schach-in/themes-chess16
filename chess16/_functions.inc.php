@@ -21,6 +21,9 @@
  */
 function mt_chess16_realm_default() {
 	global $zz_setting;
+	global $zz_page;
+
+	if (!empty($zz_page['error_code'])) return 'error';
 
 	$path = $zz_setting['request_uri'];
 	if (str_starts_with($path, $zz_setting['base_path']))
