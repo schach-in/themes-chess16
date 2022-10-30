@@ -59,8 +59,8 @@
 <ul>
 %%% page nav_bottom %%%
 %%% block foot %%%
-%%% condition if page loggedin %%%
-<li>Angemeldet als: <strong>%%% page loggedin %%%</strong></li>
+%%% condition if page sessioncontact %%%
+<li>Angemeldet als: <strong>%%% page sessioncontact %%%</strong></li>
 %%% page nav_internal %%%
 %%% condition endif %%%
 </ul>
