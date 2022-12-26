@@ -272,3 +272,6 @@ p.error, div.error
 #zzform ul.data li
 			{ max-width: 126px; height: 240px; }
 
+/* zzform separator */
+#zzform .separator
+			{ padding: 0 .5rem; }
