@@ -6,8 +6,9 @@
  * https://www.zugzwang.org/themes/chess16
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
- * @copyright Copyright © 2016-2018, 2022 Gustaf Mossakowski
- * Copyright (c) 2020      Falco Nogatz <fnogatz@gmail.com>
+ * @author Falco Nogatz <fnogatz@gmail.com>
+ * @copyright Copyright © 2016-2018, 2022-2023 Gustaf Mossakowski
+ * @copyright Copyright © 2020 Falco Nogatz
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
 
@@ -275,3 +276,7 @@ p.error, div.error
 /* zzform separator */
 #zzform .separator
 			{ padding: 0 .5rem; }
+
+/* subpages */
+.subpages .important
+			{ font-weight: bold; margin-top: .5em; margin-bottom: .5em; }
