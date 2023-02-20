@@ -269,6 +269,13 @@ p.error, div.error
 	.feedback input			{ max-width: 98%; }
 }
 
+/* zzform */
+div.text #zzform	{ padding: 0; }
+@media screen and (max-width: 640px) {
+	#zzform table.data	{ margin: .5em 1em; }
+	#zzform .pages		{ margin-left: 1em; }
+}
+
 /* zzform list display */
 #zzform ul.data li
 			{ max-width: 126px; height: 240px; }
