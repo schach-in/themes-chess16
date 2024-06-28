@@ -166,7 +166,7 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 .nav strong	{ color: #000; }
 @media screen and (max-width: 640px) {
 	#breadcrumbs
-				{ position: absolute; bottom: 4em; margin: 0; left: .75em;
+				{ position: absolute; bottom: 5.5rem; margin: 0; left: .75em;
 				text-align: center; right: .75em; }
 	.nav, #breadcrumbs
 				{ font-size: 90%; }
