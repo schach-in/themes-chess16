@@ -191,7 +191,10 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 			{ content: " \00a0·\00a0\00a0"; }
 #foot nav li:first-child:before
 			{ content: ""; }
-
+#foot nav ul .searchform
+			{ display: inline-block; }
+#foot nav ul .searchform label
+			{ display: none; }
 
 /* colour schemes */
 @media screen {
