@@ -7,7 +7,7 @@
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
  * @author Falco Nogatz <fnogatz@gmail.com>
- * @copyright Copyright © 2016-2018, 2022-2023 Gustaf Mossakowski
+ * @copyright Copyright © 2016-2018, 2022-2024 Gustaf Mossakowski
  * @copyright Copyright © 2020 Falco Nogatz
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
@@ -290,3 +290,20 @@ div.text #zzform	{ padding: 0; }
 /* subpages */
 .subpages .important
 			{ font-weight: bold; margin-top: .5em; margin-bottom: .5em; }
+
+
+/* internal: status traffic ligths */
+/* custom/templates/bewerber-lv.template.txt */
+/* custom/templates/bewerber-overview.template.txt */
+/* custom/zzbrick_tables/buchungen.php */
+/* custom/zzbrick_tables/participations.php */
+/* rooms/templates/checkin.template.txt */
+/* tournaments/zzbrick_tables/teams.php */
+.status-yes, .status-no, .status-open, .status-partly, .status-exempt
+				{ float: left; width: 1em; height: 1em; border: 1px solid black; 
+				margin-right: .5em; }
+.status-yes		{ background-color: green; }
+.status-no		{ background-color: red; }
+.status-open	{ background-color: yellow; }
+.status-partly	{ background-color: black; }
+.status-exempt	{ background-color: cornflowerblue; }
