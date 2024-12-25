@@ -5,7 +5,7 @@
 # https://www.zugzwang.org/themes/chess16
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2016-2018, 2022 Gustaf Mossakowski
+# @copyright Copyright © 2016-2018, 2022, 2024 Gustaf Mossakowski
 # Copyright (c) 2020      Falco Nogatz <fnogatz@gmail.com>
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
@@ -18,9 +18,9 @@
 <head>
 	<title>%%% page pagetitle %%%</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-%%% condition if page description %%%
+%%% if page description %%%
 	<meta name="description" content="%%% page description %%%">
-%%% condition endif %%%
+%%% endif %%%
 %%% page magnificpopup head %%%
 %%% page head %%%
 %%% page packagecss %%%
@@ -59,10 +59,10 @@
 <ul>
 %%% page nav_bottom %%%
 %%% block foot %%%
-%%% condition if page sessioncontact %%%
+%%% if page sessioncontact %%%
 <li>Angemeldet als: <strong>%%% page sessioncontact %%%</strong></li>
 %%% page nav_internal %%%
-%%% condition endif %%%
+%%% endif %%%
 %%% template pagesearch-footer %%%
 </ul>
 </nav>
