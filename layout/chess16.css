@@ -307,3 +307,10 @@ div.text #zzform	{ padding: 0; }
 .status-open	{ background-color: yellow; }
 .status-partly	{ background-color: black; }
 .status-exempt	{ background-color: cornflowerblue; }
+
+
+/* search */
+.searchform label
+				{ display: none; }
+div.searchresults h2:first-child
+				{ margin-top: 0; }
