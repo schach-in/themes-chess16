@@ -311,6 +311,19 @@ div.text #zzform	{ padding: 0; }
 
 /* search */
 .searchform label
-				{ display: none; }
+			{ display: none; }
 div.searchresults h2:first-child
-				{ margin-top: 0; }
+			{ margin-top: 0; }
+.searchresults .search-items
+			{ margin: 1rem 0; padding: 0; list-style: none; }
+.searchresults .search-items li
+			{ margin: 0 0 1em 0; padding: 0; clear: left;
+			/* following code all to avoid breaks inside li element */
+			break-inside: avoid-column; }
+.searchresults .search-items img
+			{ width: 80px; height: 80px; float: left; margin: 0 1rem 1rem 0; }
+
+@media screen and (min-width: 721px) {
+	.searchresults .search-items
+				{ columns: 2; }
+}
