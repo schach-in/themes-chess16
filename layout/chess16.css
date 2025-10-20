@@ -152,6 +152,7 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 }
 
 /* navigation */
+.below a		{ font-weight: bold; }
 #breadcrumbs
 			{ margin: 0 80px .25em 0; line-height: 1.2; color: #000; }
 #breadcrumbs em

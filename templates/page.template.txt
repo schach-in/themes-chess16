@@ -44,8 +44,8 @@
 %%% page bannertext %%%
 </div>
 </div>
-%%% page turniermenue %%%
 %%% page eventmenu %%%
+%%% page turniermenue %%%
 </header>
 <div id="content">
 <div class="text%%% page extra_wide " wide"%%%" role="main">
