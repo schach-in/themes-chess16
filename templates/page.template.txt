@@ -63,7 +63,9 @@
 <li>Angemeldet als: <strong>%%% page sessioncontact %%%</strong></li>
 %%% page nav_internal %%%
 %%% endif %%%
+%%% if template pagesearch-footer %%%
 %%% template pagesearch-footer %%%
+%%% endif %%%
 </ul>
 </nav>
 </div>
