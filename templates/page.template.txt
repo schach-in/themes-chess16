@@ -5,7 +5,7 @@
 # https://www.zugzwang.org/themes/chess16
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2016-2018, 2022, 2024 Gustaf Mossakowski
+# @copyright Copyright © 2016-2018, 2022, 2024, 2026 Gustaf Mossakowski
 # Copyright (c) 2020      Falco Nogatz <fnogatz@gmail.com>
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
@@ -28,7 +28,7 @@
 	<link rel="icon" href="/favicon.ico" type="image/x-ico">
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" type="image/png">
 </head>
-<body class="%%% setting realm %%%"%%% page extra_body_attributes " %s" %%%>
+<body class="%%% setting realm %%%"%%% page extra_body_attributes %%%>
 <div id="full">
 <header><div id="head">
 %%% block logo %%%
@@ -48,7 +48,7 @@
 %%% page turniermenue %%%
 </header>
 <div id="content">
-<div class="text%%% page extra_wide " wide"%%%" role="main">
+<div class="text%%% if page extra_wide %%% wide%%% endif %%%" role="main">
 %%% page text %%%
 </div>
 </div>
