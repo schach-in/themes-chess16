@@ -48,9 +48,9 @@
 %%% page turniermenue %%%
 </header>
 <div id="content">
-<div class="text%%% if page extra_wide %%% wide%%% endif %%%" role="main">
+<main class="text%%% if page extra_wide %%% wide%%% endif %%%">
 %%% page text %%%
-</div>
+</main>
 </div>
 <footer>
 <div id="foot">

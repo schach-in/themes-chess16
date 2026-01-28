@@ -276,7 +276,7 @@ p.error, div.error
 }
 
 /* zzform */
-div.text #zzform	{ padding: 0; }
+main #zzform	{ padding: 0; }
 @media screen and (max-width: 640px) {
 	#zzform table.data	{ margin: .5em 1em; }
 	#zzform .pages		{ margin-left: 1em; }
