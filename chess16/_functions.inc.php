@@ -8,7 +8,7 @@
  * https://www.zugzwang.org/modules/chess16
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
- * @copyright Copyright © 2022-2023 Gustaf Mossakowski
+ * @copyright Copyright © 2022-2026 Gustaf Mossakowski
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
 
@@ -19,9 +19,7 @@
  * @return string
  */
 function mt_chess16_realm_default() {
-	global $zz_page;
-
-	if (!empty($zz_page['error_code'])) return 'error';
+	if (wrap_page_meta('http_status') !== null) return 'error';
 
 	$path = wrap_setting('request_uri');
 	if (str_starts_with($path, wrap_setting('base_path')))
