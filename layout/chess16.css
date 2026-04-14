@@ -332,3 +332,8 @@ div.searchresults h2:first-child
 	.searchresults .search-items
 				{ columns: 2; }
 }
+
+
+/* usergroups */
+.usergroup .abstract
+			{ margin-top: 0; }
