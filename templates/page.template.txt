@@ -10,7 +10,7 @@
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 %%% block default logo %%%
-<p class="logo-wide"><a href="/" target="_top"><img src="/_layout/logo-60.png" alt="%%% setting project %%%" srcset="/_layout/logo-60.png 1x, /_layout/logo-120.png 2x"></a></p>
+<p class="logo-wide"><a href="%%% path home %%%" target="_top"><img src="%%% setting layout_path %%%/logo-60.png" alt="%%% setting project %%%" srcset="%%% setting layout_path %%%/logo-60.png 1x, %%% setting layout_path %%%/logo-120.png 2x"></a></p>
 %%% block default end %%%
 
 <!DOCTYPE html>
