@@ -7,7 +7,7 @@
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
  * @author Falco Nogatz <fnogatz@gmail.com>
- * @copyright Copyright © 2016-2018, 2022-2025 Gustaf Mossakowski
+ * @copyright Copyright © 2016-2018, 2022-2026 Gustaf Mossakowski
  * @copyright Copyright © 2020 Falco Nogatz
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
@@ -232,6 +232,12 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 p.error, div.error
 				{ background: #C00; color: white; max-width: 30em;
 				padding: .25em; font-weight: bold; }
+div.error		{ margin: 1rem 0; }
+div.error p:first-child
+				{ margin-top: 0; }
+div.error dl	{ margin-bottom: 0; }
+div.error dd	{ font-weight: normal; }
+
 /* other */
 .nobr			{ white-space: nowrap; }
 .abstract		{ font-size: 120%; line-height: 1.4; margin: 1em 0;
